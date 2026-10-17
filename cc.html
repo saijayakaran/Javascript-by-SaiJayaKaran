@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cc.css">
+    <script src="cc.js" defer></script>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+
+    <h1 class="heading">Currency Converter</h1>
+        <div class="enter">
+        <label>Enter amount</label>
+        </div>
+        <br>
+        <div >
+        <input  type="number"  class="input" placeholder="100" required id="amount">
+        </div>
+    <br>
+    <div class="currencydiv">
+        <select class="currency" id="currency1">
+        <option value="USD">USD - United States Dollar</option>
+        </select>
+        <b class="to">TO</b>
+        <select class="currency" id="currency2">
+        <option value="INR">INR - Indian Rupee</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <button id="convertbutton" class="button" type="button">
+        Convert
+    </button>
+    </div>
+    <br>
+    <p class="result"><strong>100 USD = 8,407.52 INR</strong></p>
+    <p class="error">An error occurred, please try again later</p>
+    </div>
+</body>
+</html>

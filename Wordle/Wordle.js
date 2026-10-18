@@ -61,7 +61,6 @@ function selectRandomWord(){
     return words[randomIndex];
 }  
 const targetWord=selectRandomWord();
-console.log("Target Word:", targetWord);
 const cells=[];
 for(let i=0;i<30;i++){
     const cell=document.createElement("div");

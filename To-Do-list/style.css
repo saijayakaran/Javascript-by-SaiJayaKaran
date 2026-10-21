@@ -1,0 +1,101 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f7f8fc;
+}
+.container{
+    background-color: white;
+}
+.heading {
+    background-color: #3f51b5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchInput {
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.editAndDeleteInSameRow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    background-color: white;
+    border: 1px solid #ccc;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+.addTask{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.addTask:hover{
+    background-color: #388e3c;
+}
+.todayTasks, .upcomingTasks, .dueTasks{
+    background-color: #e8f5e9;
+}
+.todayTasks div, .upcomingTasks div, .dueTasks div{
+    border-bottom: 1px solid #ddd;
+}
+.editButton{
+    background-color: #ffca28;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+.editButton:hover{
+    background-color: #fbc02d;
+}
+.deleteButton{
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.deleteButton:hover{
+    background-color: #d32f2f;
+}
+h2{
+    color: #3f51b5;
+    padding: 10px;
+    border-radius: 5px;
+}
+.todayTasks p, .upcomingTasks p, .dueTasks p{
+    color: #0a0000;
+    padding: 10px;
+    border-radius: 5px;
+}
+.errorPopup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.okButton{
+    background-color: #3f51b5;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.enteredTask{
+    margin-right: 0px;
+    flex: 1;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
